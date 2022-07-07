@@ -33,9 +33,8 @@ body{
     padding-top: 20px;
 }
 
-.texto a{
+.texto span{
     color: var(--color-2);
-    text-decoration: none;
 }
 
 .texto-numeros{
@@ -60,6 +59,7 @@ img{
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
     background: var(--color-2);
+    filter: opacity(0.4) drop-shadow(0 0 0 #B569E3);
 }
 
 .referencia{
@@ -104,6 +104,7 @@ img{
         border-bottom-right-radius: 0;
         border-top-left-radius: 10px;
         height: 40vh;
+        
     }
 }
 
