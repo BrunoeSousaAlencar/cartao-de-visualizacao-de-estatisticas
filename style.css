@@ -79,7 +79,7 @@ img{
     .conteudo{
         display: flex;
         height: 800px;
-        width: 90vw;
+        width: 400px;
         padding-top: -50px;
         margin: auto;
         margin-top: 60px;
@@ -119,6 +119,13 @@ img{
         border-bottom-right-radius: 0;
         border-top-left-radius: 10px;
         height: 40vh; 
+    }
+}
+
+@media (max-width: 500px){
+    .conteudo{
+        width: 300px;
+
     }
 }
 
