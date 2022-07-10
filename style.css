@@ -88,10 +88,12 @@ img{
         text-align: center;
     }
 
+    .texto-numeros-unidade{
+        margin-right: 0px;
+    }
+
     h1{
         margin-top: 10px;
-
-
     }
 
     .texto-numeros{
@@ -125,7 +127,6 @@ img{
 @media (max-width: 500px){
     .conteudo{
         width: 300px;
-
     }
 }
 
